@@ -9,7 +9,30 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Hist 390 group 2 final.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Hist 390 group 2 final" startnode="3" creator="Twine" creator-version="2.5.1" format="Harlowe" format-version="3.3.3" ifid="F0D3BB04-BAC3-406B-A5C1-ADBAAECC4C5F" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="get dressed" tags="" position="475,425" size="100,100"></tw-passagedata><tw-passagedata pid="2" name="read correspondence" tags="" position="875,450" size="100,100"></tw-passagedata><tw-passagedata pid="3" name="beginning" tags="" position="600,75" size="100,100">You wake up. As you gain consciousness, you remember........Today is the day of the party! You are Queen Elizabeth the first, and you are dying.  As you sit up and look around the room, you feel faint. You don&#39;t have much time left, which is why today is your one chance. If you can find a succesor at this party, the future of England is secured. 
+<tw-storydata name="Hist 390 group 2 final" startnode="3" creator="Twine" creator-version="2.5.1" format="Harlowe" format-version="3.3.3" ifid="F0D3BB04-BAC3-406B-A5C1-ADBAAECC4C5F" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="get dressed" tags="" position="475,425" size="100,100">Your servants assist you with the laborious task of dressing yourself in Tudor times. They powder a large wig, paint your face a luminous white, help you into a corset and large pleated gown. 
+
+It takes hours. Your servants gossip and make small talk, and on other days you&#39;d be a delightful participant. But the matters that weigh on you now are far too grave and lofty for your handmaidens. 
+
+Once you are done there is still much to do, though your participation is tangential to the completion, naturally...
+
+[[prepare food]]
+
+[[pray]] 
+
+[[read correspondence]] 
+
+[[manage spending]]</tw-passagedata><tw-passagedata pid="2" name="read correspondence" tags="" position="875,450" size="100,100">You determine that from your invitations, King James of Scotland, Edward Seymour and Arbella Stuart will attend in person. Infanta Isabella of Spain will be represented by her ambassador. Sadly, you did not hear from Ann Stanley, pity that. 
+
+It&#39;s difficult to stay focused as there is only so much more you can do now, but reading helps take your mind off of it all...
+
+[[pray]] 
+
+[[prepare food]] 
+
+[[get dressed]] 
+
+[[manage spending]] 
+</tw-passagedata><tw-passagedata pid="3" name="beginning" tags="" position="600,75" size="100,100">You wake up. As you gain consciousness, you remember........Today is the day of the party! You are Queen Elizabeth the first, and you are dying.  As you sit up and look around the room, you feel faint. You don&#39;t have much time left, which is why today is your one chance. If you can find a succesor at this party, the future of England is secured. 
 
 [[get ready]]</tw-passagedata><tw-passagedata pid="4" name="get ready" tags="" position="600,200" size="100,100">(set:$getready to 0)\
 As you look around you, your head rushes with the work you have before you. Where should you start?
@@ -22,7 +45,37 @@ As you look around you, your head rushes with the work you have before you. Wher
 (if:visits is not 1)[You have already done this. Your time is best spent elsewhere.]\
 (if:visits is 1)[=You walk down to the kitchen to see what is being prepared for the party. All of the food looks wonderful, all traditional English meals. Perhaps if there are some foreign guests, they might want something familiar. You wonder if the Infanta Isabella of Spain received the invitation, and if she would be attending. Though she is Catholic and Spanish, you think there might be a chance she can give this country what you could not. You don&#39;t think she&#39;ll come; just in case, you ask the chefs to make some food from Spain. 
 
-[[keep getting ready]]</tw-passagedata><tw-passagedata pid="6" name="manage spending" tags="" position="725,425" size="100,100"></tw-passagedata><tw-passagedata pid="7" name="pray" tags="" position="350,450" size="100,100">(set:$getready to it +1)
+[[keep getting ready]]</tw-passagedata><tw-passagedata pid="6" name="manage spending" tags="" position="725,425" size="100,100">For now the spending of your realm is stable. A party like this should be a drop in the bucket. 
+
+You summon Robert Cecil to discuss the fiscal policy, foreign relations and the domestic situation. But it&#39;s hard to stay focused on the task at hand. 
+
+Suddenly, you feel dizzy. Cecil catches you and sits you down, calling for some water, and a doctor. You hush the latter request. 
+
+Cecil is a man you can trust. He oversees large tracts of the realm, the law and the church. You decide to confide in him your dreadful suspiscions. 
+
+&quot;Are you quite sure?&quot; He asks.
+
+&quot;Yes,&quot; you reply. 
+
+&quot;And you still want to have the party?&quot;
+
+&quot;Indeed. It is why I arranged it.&quot;
+
+Cecil stares at a painting on the wall, as if he knew this day would come at long last, and is just as powerless to prevent it. 
+
+&quot;Alright, your majesty, but I will be keeping a close eye on you. If you feel this happening again, just say the word and-&quot;
+
+&quot;I understand.&quot;
+
+[[read correspondence]] 
+
+[[get dressed]] 
+
+[[pray]] 
+
+[[prepare food]]
+
+</tw-passagedata><tw-passagedata pid="7" name="pray" tags="" position="350,450" size="100,100">(set:$getready to it +1)
 (if:visits is not 1)[You have already done this. Your time is best spent elsewhere.]\
 (if:visits is 1) [=You decide to clear your head, becasue of the overwhelmign feeling you have on the task you are hoping to accomplish at the party.You seek guidence and a sign and therefor you go to the shrine in the castle to do some prayers and reflect on the importance of the dicission on who your next successor will be.While praying your remember Arbella Stewart was a strong catholic, you don&#39;t know how your feel about that yet.]
 &lt;/style&gt;
@@ -30,7 +83,7 @@ As you look around you, your head rushes with the work you have before you. Wher
 &lt;/div&gt;
 
 
-[[Go to the party]]</tw-passagedata><tw-passagedata pid="8" name="keep getting ready" tags="" position="600,575" size="100,100">(if:$getready is &quot;5&quot;)[You are ready. [[go to the party]]]/
+[[Go to the party]]</tw-passagedata><tw-passagedata pid="8" name="keep getting ready" tags="" position="600,575" size="100,100">(if:$getready is &quot;5&quot;)[You are ready. [[Go to the party]]  to the party]]]/
 (if:$getready is not &quot;5&quot;)[=There is still so much to do. What would you like to do next?
 
 [[get dressed]]
@@ -42,8 +95,67 @@ As you look around you, your head rushes with the work you have before you. Wher
 [[find James]]
 [[find Edward Seymour]]
 [[find Arbella Stewart]]
-[[find Isabella]]
-[[find Anne Stanley]]</tw-passagedata><tw-passagedata pid="10" name="find James" tags="" position="375,775" size="100,100"></tw-passagedata><tw-passagedata pid="11" name="find Edward Seymour" tags="" position="875,1000" size="100,100"></tw-passagedata><tw-passagedata pid="12" name="find Arbella Stewart" tags="" position="75,475" size="100,100">(enchant:?page,(bg:#a6c289))You go on the search for Arbella Stewart, you thought you saw her talking to non the other but your (text-colour:red)[secret lover Robert Dudly.]
+[[find Isabella]]</tw-passagedata><tw-passagedata pid="10" name="find James" tags="" position="375,775" size="100,100"></tw-passagedata><tw-passagedata pid="11" name="find Edward Seymour" tags="" position="1025,1025" size="100,100">&quot;Find Edward Seymour, Lord Beauchamp?&quot; Robert Cecil scoffs incredulously. &quot;Your majesty, are you feeling quite well?&quot;
+
+You had spent an hour tending the the guests of the party, exchanging niceties, but your target hadn&#39;t shown himself yet. You are speaking to Cecil to remedy this. 
+
+This man Seymour was known to be trouble. You had just recently released him from confinement in the tower of London, on account of his repeated efforts to un-bastardize himself. 
+
+You reply to Cecil: &quot;Indeed, I couldn&#39;t find him among the party guests all milling about here.&quot;
+
+Cecil finishes his champagne with a swig and continues in a hushed tone, &quot;Your majesty, I saw that you had requested his presence at this gathering, and when I recieved word of it, I had him detained outside. I would have intercepted the invitation had I caught the news of it as well.&quot; He stifles a belch as his finishes speaking. 
+
+You&#39;ve known Robert for many years now and trust him with your closest affairs. It isn&#39;t any man who would dare go against your will, much less admit it to your face. Most anyone else would have some serious explaining to do, but if he had any wool to pull over your eyes he has wasted far too many chances by now. That&#39;s how you know he has your best interests at heart. 
+
+You address Cecil again saying, &quot;I am not in the mood for repeating myself //ad nauseum//, Robert. Now where can I find the young rascall?&quot;
+
+Cecil gazes at you, pressing his thumbs together in anxious vexation. Finally, he flinches and sits up, saying, &quot;Right this way, your majesty...&quot;
+
+He leads you to the heavy oaken door, ornamented with wrought iron studs. They take the form of lions, bears and unicorns on the other side, the one meant to keep out suspiscious character. Cecil knocks on the door, and with a husky voice, booms, &quot;Make way for the Queen!&quot; The door opens a crack for verification (not just anyone can make that claim!) before opening wide enough to admit your entrance...
+
+You step outside into the hallway, the raucous party fading behind you as the door is shut again. The chatter of conversation is abruptly replaced by the clamor of two men shouting.
+
+&quot;I demand to be admitted!&quot; 
+
+&quot;Step away!&quot;
+
+&quot;I have an invitation, if you could read it, you&quot;
+
+The unbecoming conversation ends sharply as the figures in the hallway turn to face you. One is Edward Seymour, the younger Edward Seymour, Lord Beauchamp. The other is your trusted gaurd Paul who has a spear to the Edward&#39;s sternum. As they see you, Edward bows to the floor, nearly prostrate, and Paul steps in front of him to prevent a possible advance. 
+
+&quot;Your highness,&quot; Edward speaks in a hushed but clear tone, &quot;Thank you for recieving me at last!&quot; 
+
+Cecil ushers Paul aside and Paul obliges. But before he can return to his post at the door, Cecil grabs his arm, making it clear he must be more vigilant than usual with Seymour. 
+
+&quot;Well, if it isn&#39;t the bastard Seymour.&quot; Cecil snarks. &quot;They must be sleeping over there at the tower becuase I don&#39;t recall them letting ruffians like you free.&quot;
+
+Edward&#39;s eyes burn with indignation as he rises to his feet once again. He keeps his composure in the presence of the Queen, but might not in her absence. 
+
+You step forward confidently. Cecil is mainly worried about your safety, and if you show him that you aren&#39;t afraid, he&#39;ll know to relax. 
+
+&quot;Thank you, Lord Cecil, I think I can manage from here.&quot; 
+
+Robert slowly unclenches his fists and steps back hovering awkwardly a few steps away from the you and Edward. 
+
+&quot;I said, I can manage from here.&quot; You repeat yourself in a slow and deliberate tone. Cecil gets the message and opens the door, the hubub rising again, saying, &quot;If you need anything your majesty, I&#39;ll be inside.&quot; He shoots a look at Seymour before quipping, &quot;I suggest you behave yourself, now that there&#39;s at least one vacancy in the tower.&quot;
+
+The door slams with a loud bang, and in the quiet, Paul steps wordlessly back to the wall his eyes glued to the young noble. 
+
+&quot;Your highness,&quot; Edward resumes, stooping to kiss your ring, only to relaize you haven&#39;t offered him the privilege. If he&#39;s hurt by this, he shakes it easily. 
+
+&quot;Thank you for inviting me to the celebration. This is a great honor, not only for me, but for all the Seymours. My father sends his regards.&quot;
+
+You nod in acknowlegement. &quot;Yes, and how is he faring these days.&quot;
+
+Edward continues with a brief pause, as if he was expecting the subject matter to deviate, &quot;He is well, your majesty. He wishes the same for you.&quot;
+
+Seymour neglects to speak further about his family, and now it is up to you to continue the conversation:
+
+[[You may be wondering why I invited you here...]]
+
+[[Are you sure he does?]]
+
+</tw-passagedata><tw-passagedata pid="12" name="find Arbella Stewart" tags="" position="75,475" size="100,100">(enchant:?page,(bg:#a6c289))You go on the search for Arbella Stewart, you thought you saw her talking to non the other but your (text-colour:red)[secret lover Robert Dudly.]
 
 [[Go speak to Robert Dudly]]
 [[keep looking for Arbella]]
@@ -53,51 +165,64 @@ As you look around you, your head rushes with the work you have before you. Wher
 (set: $Isabella to 1) Looking around, you realize you can&#39;t find Isabella in the crowd.  After asking around, you figure out she sent a representative in her place. It&#39;s probably better this way; who knows what kind of argument might have broken out if the other candidates found out she&#39;d been invited. You make your way to the representative, who eagerly reacts. 
 
 [[Welcome him warmly]] 
-[[Reproach Isabella for not coming herself]] </tw-passagedata><tw-passagedata pid="14" name="find Anne Stanley" tags="" position="425,925" size="100,100"></tw-passagedata><tw-passagedata pid="15" name="die" tags="" position="675,1050" size="100,100">You are escorted to your own bed, doctors hovering around you. You know you are beyond saving. On your deathbed, you begin to reflect on everyone you have spoke to you consider the pros and cons. Your advisor asks the question you have been awaiting. 
+[[Reproach Isabella for not coming herself]] </tw-passagedata><tw-passagedata pid="14" name="die" tags="" position="675,1050" size="100,100">You are escorted to your own bed, doctors hovering around you. You know you are beyond saving. On your deathbed, you begin to reflect on everyone you have spoke to you consider the pros and cons. Your advisor asks the question you have been awaiting. 
 
 &quot;Who do you name to succeed you?&quot;
 
 Who will you choose?
 
-[[anne standley]]
 [[edward seymour]]
 [[james]]
 [[arbella stewart]]
-[[Isabella of Spain]]</tw-passagedata><tw-passagedata pid="16" name="anne standley" tags="" position="475,1200" size="100,100"></tw-passagedata><tw-passagedata pid="17" name="edward seymour" tags="" position="925,1150" size="100,100"></tw-passagedata><tw-passagedata pid="18" name="james" tags="" position="350,1150" size="100,100"></tw-passagedata><tw-passagedata pid="19" name="arbella stewart" tags="" position="625,1325" size="100,100">With the feeling of yoru heart slowing down, and the stares of yoru advisors you begin to write your will, which states that Arbella stewart will be the next sucessor.The next queen of England, and with gods will, will reign as worthy as you.Arbella was notified that instant of her death and the conmencmance of her reign began.</tw-passagedata><tw-passagedata pid="20" name="Isabella of Spain" tags="" position="875,1275" size="100,100">(if:$Isabella &lt; -1)[With your dying breath, you choose the Infanta Isabella of Spain as your successor. The turmoil breaks out almost immediately. The guests in the party all descend into madness at the announcement, and the commencement is turned to a bloodbath. For a good 60 days, the fighting doesn&#39;t stop. The castle is ravaged. Was this a good choice?]\
-(if:$isabella &gt; -2)[The choice is made. Isabella is notified immediately and soon enough, she accepts. Though many are resentful, England is consumed peacefully enough into Spain. ]</tw-passagedata><tw-passagedata pid="21" name="Welcome him warmly" tags="" position="975,525" size="100,100">(set:$isabella to it +1)&quot;I&#39;m glad you could make it,&quot; you say. The representative smiles and bows to you.
+[[Isabella of Spain]]</tw-passagedata><tw-passagedata pid="15" name="edward seymour" tags="" position="925,1150" size="100,100">With your last breath, you mutter, &quot;Edward Seymour.&quot;
+
+Before the year is out Seymour is coronated with his wife Honora at his side as consort. King Edward VII of England reigns over a period of expansion for England and it&#39;s power. A staunch Anglican, he is quick to approve a new English translation of the Bible, the now famous &quot;King Edward Version&quot;. He promotes it in all churches and is keen to tout its composition. His son William marries the Catholic Arbella Stuart, and while this leads to tension with William, Edward notices the smart political ramifications of such a move, and reconciles, remembering the feud between his mother and you. The union leads to a greater rapproachment of tensions between the crown and Rome, and religious compact is signed in 1620. 
+
+Edward is not as savvy when it comes to secular relations. Fearing that James will take his throne, he launches an invasion of Scotland ,the most brutal yet, destabilizing the region and fomenting the rise of early jacobite poltical sentiment earlier. James fights back and becomes the last monarch in the British isles to die in combat. He quotes Robert the Bruce saying, &quot;History is written by those who hang heroes&quot; before adding, &quot;but will not be hanged.&quot;
+
+Edward had much less luck in his invasion of Spain. Even with Dutch allies, the English Army only made it as far as Toledo before supplies ran out and mutiny ensued. The war was continued by his son William the third and is now known as the &#39;40 years war&#39;. 
+
+Edward&#39;s father, Edward, having fulfilled his lifelong political ambitions dies nine years early in 1612. Edward himself dies nine years late in 1621, due to his newfound lease on life. Choosing Edward addressed Elizabeth&#39;s concerns about preserving the power of church sovereign, and selecting a male English monarch. It did not address the concerns that he was a &#39;rascall&#39; (he is sometimes refered to as Edward the Rascal, especially by the Scottish National Party), nor unifying the thrones. Elizabeth may have been somewhat indifferent to the reforms in the public sphere brought about by Edward due to the fact that her convictions were mainly private and personal. 
+
+Return to the:
+
+[[beginning]] 
+
+and try for a different ending!</tw-passagedata><tw-passagedata pid="16" name="james" tags="" position="350,1150" size="100,100"></tw-passagedata><tw-passagedata pid="17" name="arbella stewart" tags="" position="625,1325" size="100,100">With the feeling of yoru heart slowing down, and the stares of yoru advisors you begin to write your will, which states that Arbella stewart will be the next sucessor.The next queen of England, and with gods will, will reign as worthy as you.Arbella was notified that instant of her death and the conmencmance of her reign began.</tw-passagedata><tw-passagedata pid="18" name="Isabella of Spain" tags="" position="875,1275" size="100,100">(if:$Isabella &lt; -1)[With your dying breath, you choose the Infanta Isabella of Spain as your successor. The turmoil breaks out almost immediately. The guests in the party all descend into madness at the announcement, and the commencement is turned to a bloodbath. For a good 60 days, the fighting doesn&#39;t stop. The castle is ravaged. Was this a good choice?]\
+(if:$isabella &gt; -2)[The choice is made. Isabella is notified immediately and soon enough, she accepts. Though many are resentful, England is consumed peacefully enough into Spain. ]</tw-passagedata><tw-passagedata pid="19" name="Welcome him warmly" tags="" position="975,525" size="100,100">(set:$isabella to it +1)&quot;I&#39;m glad you could make it,&quot; you say. The representative smiles and bows to you.
 &quot;I&#39;m so delighted to be here. When Her Majesty Queen Isabella saw you had invited her, she was pleased but understood the circumstances of the political situation, especially due to their distain for her Catholic faith...&quot; 
 
 
 [[Support Isabella&#39;s faith]]
-[[Justify the people&#39;s apprehension]]</tw-passagedata><tw-passagedata pid="22" name="Reproach Isabella for not coming herself" tags="" position="975,700" size="100,100">(set:$isabella to it -1) You look sternly at the Spanish representative before you. 
+[[Justify the people&#39;s apprehension]]</tw-passagedata><tw-passagedata pid="20" name="Reproach Isabella for not coming herself" tags="" position="975,700" size="100,100">(set:$isabella to it -1) You look sternly at the Spanish representative before you. 
 &quot;Isabella couldn&#39;t make it herself?&quot;
 &quot;She and her court believed it would not be in your best interests, considering the circumstances...&quot; He looks up at you goofily. &quot;She thought it would be better, considering how they distain Catholicism...&quot;
 
 
 [[Support Isabella&#39;s faith]]
 [[Justify the people&#39;s apprehension]]
-</tw-passagedata><tw-passagedata pid="23" name="Support Isabella&#39;s faith" tags="" position="1100,525" size="100,100">(set:$isabella to it +1)&quot;Of course. I once was distainful towards those with a different faith to my own. But Isabella is a fine woman. Perhaps one day the two faiths could coexist.&quot; 
+</tw-passagedata><tw-passagedata pid="21" name="Support Isabella&#39;s faith" tags="" position="1100,525" size="100,100">(set:$isabella to it +1)&quot;Of course. I once was distainful towards those with a different faith to my own. But Isabella is a fine woman. Perhaps one day the two faiths could coexist.&quot; 
 The representative grins in delight. 
 &quot;she is a fine woman indeed. Unfortuately, many of the people believe a woman should not be leading them. I assume you would say differently, though.&quot; He looks at you expectantly. 
 
 [[Agree; women lead well.]]
-[[Too many queens]]</tw-passagedata><tw-passagedata pid="24" name="Justify the people&#39;s apprehension" tags="" position="1100,775" size="100,100">(set:$isabella to it -1)&quot;I understand. Many of us here do not take kindly to Catholics, especially after the damage my predicessor Mary did to this find country.&quot;
+[[Too many queens]]</tw-passagedata><tw-passagedata pid="22" name="Justify the people&#39;s apprehension" tags="" position="1100,725" size="100,100">(set:$isabella to it -1)&quot;I understand. Many of us here do not take kindly to Catholics, especially after the damage my predicessor Mary did to this find country.&quot;
 He looks slightly peeved. &quot;Surely that isn&#39;t how you view her. After all, Mary was only one woman. She should not leave a stain on the image of all Queens, should she?&quot;
 
 [[Agree; women lead well.]]
-[[Too many queens]]</tw-passagedata><tw-passagedata pid="25" name="Agree; women lead well." tags="" position="1225,500" size="100,100">(set:$isabella to it +1)You look at him blankly. &quot;Why, of course a woman can lead. Surely, after all I&#39;ve done, you can&#39;t say otherwise.&quot; 
+[[Too many queens]]</tw-passagedata><tw-passagedata pid="23" name="Agree; women lead well." tags="" position="1225,500" size="100,100">(set:$isabella to it +1)You look at him blankly. &quot;Why, of course a woman can lead. Surely, after all I&#39;ve done, you can&#39;t say otherwise.&quot; 
 This seems to have been the right answer, as the representative looks pleased. &quot;I am glad you think so. I would hope that after your rule, the popele of England would see Isabella as a fit ruler.&quot; 
 
 There is a moment where you lock eyes, and you know that he knows your purpose tonight. However, you don&#39;t let your facade slip. 
 
 
 A [[ruler]] like Isabella would benefit England.
-[[A foreign ruler would upset England.]] </tw-passagedata><tw-passagedata pid="26" name="Too many queens" tags="" position="1225,750" size="100,100">(set:$isabella to it -1)&quot;But we can&#39;t have too many queens, can we? After all, it is the man&#39;s job to look after the women in his life.&quot;
+[[A foreign ruler would upset England.]] </tw-passagedata><tw-passagedata pid="24" name="Too many queens" tags="" position="1225,750" size="100,100">(set:$isabella to it -1)&quot;But we can&#39;t have too many queens, can we? After all, it is the man&#39;s job to look after the women in his life.&quot;
 &quot;But-&quot; &quot;Also,&quot; you cut him off, &quot;if we allow so many women to take the throne, people will no longer be able to trust in what they know.&quot; You give him a pointed look, but he doens&#39;t give up. 
 &quot;What people know isn&#39;t always what&#39;s best for them. Who&#39;s to say that we shouldn&#39;t have a Queen, or perhaps, a //foreign// ruler?&quot; 
 
 A foreign [[ruler]] might not be so bad.
-[[A foreign ruler would upset England.]]</tw-passagedata><tw-passagedata pid="27" name="ruler" tags="" position="1350,550" size="100,100">(set:$isabella to it +1)Regaining your sense, you smile pleasntly. 
+[[A foreign ruler would upset England.]]</tw-passagedata><tw-passagedata pid="25" name="ruler" tags="" position="1350,550" size="100,100">(set:$isabella to it +1)Regaining your sense, you smile pleasntly. 
 &quot;I&#39;m certain Isabella would rule any country well.&quot;
 
 The Spanish representative nods, and gives you a knowing look. You hope this wasn&#39;t a bad idea. 
@@ -106,14 +231,14 @@ You smile radiantly, in a practiced way that hides your looming demise. &quot;Th
 
 As the spanish representative walaks away, you snap back to focus. 
 
-[[Continue on your mission.]]</tw-passagedata><tw-passagedata pid="28" name="A foreign ruler would upset England." tags="" position="1350,700" size="100,100">(set:$isabella to it -1)&quot;Are you suggesting that I allow my country to be consumed by Spain?&quot; Your voice betrays your insult. 
+[[Continue on your mission.]]</tw-passagedata><tw-passagedata pid="26" name="A foreign ruler would upset England." tags="" position="1350,700" size="100,100">(set:$isabella to it -1)&quot;Are you suggesting that I allow my country to be consumed by Spain?&quot; Your voice betrays your insult. 
 &quot;No, no,&quot; he attempts to rectify his earlier words, &quot;I&#39;m not suggesting anything like that, majesty.&quot; 
 &quot;Good. I suggest you keep Spanish business away from my throne.&quot; 
 He bows and scurries away. 
 
 That didn&#39;t go very well. [[Continue on your mission.]] 
 
-</tw-passagedata><tw-passagedata pid="29" name="Continue on your mission." tags="" position="600,850" size="100,100">(more:)[You begin to feel faint. quickly, you call over your trusted advisor (i dont remember his name). You realize that this may be the last moment of your life. 
+</tw-passagedata><tw-passagedata pid="27" name="Continue on your mission." tags="" position="600,850" size="100,100">(more:)[You begin to feel faint. quickly, you call over your trusted advisor (i dont remember his name). You realize that this may be the last moment of your life. 
 
 [[die]]]\
 Who else would you like to speak to?
@@ -121,9 +246,8 @@ Who else would you like to speak to?
 [[find Arbella Stewart]]
 [[find James]] 
 [[find Edward Seymour]] 
-[[find Anne Stanley]] 
 [[find Isabella]] 
-</tw-passagedata><tw-passagedata pid="30" name="Go speak to Robert Dudly" tags="" position="25,650" size="100,100">(enchant:?page,(bg:#f8c4f8))Queen Elizabeth:&quot;Dudly&quot;
+</tw-passagedata><tw-passagedata pid="28" name="Go speak to Robert Dudly" tags="" position="25,650" size="100,100">(enchant:?page,(bg:#f8c4f8))Queen Elizabeth:&quot;Dudly&quot;
 
 (after:2s)[Dudly:&quot;Your majesty&quot;, he bows down ]
 
@@ -139,10 +263,10 @@ Who else would you like to speak to?
 &lt;img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Robert_Dudley.jpg/220px-Robert_Dudley.jpg
 &lt;/div&gt;
 
-[[keep looking for Arbella]] </tw-passagedata><tw-passagedata pid="31" name="keep looking for Arbella" tags="" position="175,650" size="100,100">You keep looking for Arbella and one of your favorite songs come on, and out of no where  Henry percy is asking for a dance with you, you were not aware that he was invited to the party and were very suspiciouse to what he was doing here.
+[[keep looking for Arbella]] </tw-passagedata><tw-passagedata pid="29" name="keep looking for Arbella" tags="" position="175,650" size="100,100">You keep looking for Arbella and one of your favorite songs come on, and out of no where  Henry percy is asking for a dance with you, you were not aware that he was invited to the party and were very suspiciouse to what he was doing here.
 
 [[You go dance with Henry Percy]]
-[[Keep searching for Arbella]]</tw-passagedata><tw-passagedata pid="32" name="You go dance with Henry Percy" tags="" position="25,775" size="100,100">(enchant:?page,(bg:#f8c4f8))Queen:&quot;Henry Percy, I was not aware you were going to attend my party&quot;
+[[Keep searching for Arbella]]</tw-passagedata><tw-passagedata pid="30" name="You go dance with Henry Percy" tags="" position="25,775" size="100,100">(enchant:?page,(bg:#f8c4f8))Queen:&quot;Henry Percy, I was not aware you were going to attend my party&quot;
 
 (after:2s)[Henry:&quot;I was not aware you were looking for a succesor&quot;]
 
@@ -158,10 +282,10 @@ Who else would you like to speak to?
 
 [[Keep searching for Arbella]]
 
-</tw-passagedata><tw-passagedata pid="33" name="Keep searching for Arbella" tags="" position="175,775" size="100,100">You chose not to dance with Henry adn are more eager to find Arbella so you can have a serious conversation with her, without the inlunce of other people.You spot her leaving the ballroom and headed into the halls of the castle and before you you call out for her Bess Talbot,Arrebels grandmother crosses you path and greet you with the most ediquit and asks to speak with you.
+</tw-passagedata><tw-passagedata pid="31" name="Keep searching for Arbella" tags="" position="175,775" size="100,100">You chose not to dance with Henry adn are more eager to find Arbella so you can have a serious conversation with her, without the inlunce of other people.You spot her leaving the ballroom and headed into the halls of the castle and before you you call out for her Bess Talbot,Arrebels grandmother crosses you path and greet you with the most ediquit and asks to speak with you.
 
 [[Speak to Bess Talbot]]
-[[Follow Arrbella through the castle]]</tw-passagedata><tw-passagedata pid="34" name="Speak to Bess Talbot" tags="" position="25,900" size="100,100">(enchant:?page,(bg:#f8c4f8))Bess:Curty&#39;s, &quot;Queen Elizabeth, it&#39;s such a delight to formally meet you.Thank you so much for invitng my grandaughter and I to your wonderful Party&quot;
+[[Follow Arrbella through the castle]]</tw-passagedata><tw-passagedata pid="32" name="Speak to Bess Talbot" tags="" position="25,900" size="100,100">(enchant:?page,(bg:#f8c4f8))Bess:Curty&#39;s, &quot;Queen Elizabeth, it&#39;s such a delight to formally meet you.Thank you so much for invitng my grandaughter and I to your wonderful Party&quot;
 
 (after:3s)[Queen Elizabeth:&quot;Countess of Shewberry, of course the delight is mine, I hope you&#39;re enjoying everythign so far&quot;]
 
@@ -178,12 +302,12 @@ Who else would you like to speak to?
 &lt;img src=https://i.pinimg.com/originals/82/90/8a/82908a2d9431051f57b04a9421cc5122.png
 &lt;/div&gt;
 
- [[Follow Arrbella through the castle]] </tw-passagedata><tw-passagedata pid="35" name="Follow Arrbella through the castle" tags="" position="175,900" size="100,100">You follow Arrbella through the castle wondering where she could be headed.With many thougth crossing through, you start feeling light headed, tired and overwhelmed. You see Arbella entering the shrine of the castel, you observe her at first and see that she is praying, you&#39;re not sure weather to interupt or leave her be and continue your mission and talk to other candidates.
+ [[Follow Arrbella through the castle]] </tw-passagedata><tw-passagedata pid="33" name="Follow Arrbella through the castle" tags="" position="175,900" size="100,100">You follow Arrbella through the castle wondering where she could be headed.With many thougth crossing through, you start feeling light headed, tired and overwhelmed. You see Arbella entering the shrine of the castel, you observe her at first and see that she is praying, you&#39;re not sure weather to interupt or leave her be and continue your mission and talk to other candidates.
 
 [[You go in and join her]]
 [[Continue on your mission.]] 
 
-</tw-passagedata><tw-passagedata pid="36" name="You go in and join her" tags="" position="175,1025" size="100,100">(enchant:?page,(text-colour:black)+(bg:#f4f4b3))Queen:&quot;Hello Arbella&quot;
+</tw-passagedata><tw-passagedata pid="34" name="You go in and join her" tags="" position="175,1025" size="100,100">(enchant:?page,(text-colour:black)+(bg:#f4f4b3))Queen:&quot;Hello Arbella&quot;
 
 Arbella:(Not expecting the queen, she was startled) &quot;My queen&quot;
 
@@ -198,7 +322,238 @@ Arbella:My queen I am honored with this opportunity adn i would never do anythin
 Queen:Collapses to the floor( The queen is dying)
 
 
-[[die]] </tw-passagedata></tw-storydata>
+[[die]] </tw-passagedata><tw-passagedata pid="35" name="You may be wondering why I invited you here..." tags="" position="1225,1025" size="100,100">&quot;Young Edward... perception is not spared on the youth, and I gather you have your suspiscions as to why you have been summoned.&quot;
+
+A fearless glint alights in Edward&#39;s eye as he clicks his heels together and annoucnes, &quot;Yes, your highness, I have a clue as to why.&quot;
+
+You turn back to Edward, standing with rigid posture, his hands grasping the pockets of his garments. 
+
+&quot;And what might they be?&quot; You approach Edward interrogatively. Paul quits leaning against the wall and puts both hands on his spear.
+
+You notice a bead of sweat on Edward&#39;s forehead at this distance. He begins to stammer and fidgets with his pocket. Paul takes notice and briskly clears the distance across the hall. 
+
+Edward gulps as he produces a small pouch from his breast pocket. Paul&#39;s spear is now at his back. He holds it with both shaky hands as he extends his arms in offering. 
+
+&quot;F-for you, ma-majesty...&quot; His heavy breathing perforates his words, &quot;I-I figured you m-might make an example of m-me t-today.&quot; 
+
+He undoes the twine sash, revealing the golden currency of your realm. &quot;The next al-allotment of the debt.. my d-debt.&quot;
+
+Your recent preoccupation with choosing a sucessor has left you little time for your earthly credits and other such aspects of rule. It had slipped your mind that in 1596, You had fined the younger Edward Seymour £5,000. Of it, he still owed a considerable amount, despite your forgiveness of half the sum.
+
+&quot;I thought I&#39;d better bring the funds to repay my debt. I thought you&#39;d rather have that than my head...&quot; Edward admits sheepishly.
+
+This is certainly unexpected, and your view of the rascall Edward grows softer, as you consider your next move. 
+
+[[Thank you...]]
+
+[[This is isn&#39;t why I summoned you...]]</tw-passagedata><tw-passagedata pid="36" name="Are you sure he does?" tags="" position="1125,1175" size="100,100">&quot;Does he? Well, I suspect his wishes for me aren&#39;t so benign as you would have me believe.&quot;
+
+Edward opens his mouth to protest in grand style, before closing it and electing a different tact. &quot;Certainly not. My father wouldn&#39;t dare to wish for anything other than your health and perserverance, your highness.&quot;
+
+You turn away for a second to admire a vase of flowers in the hallway, as you continue, &quot;And I suspect, your sentiments are quite the same?&quot; 
+
+&quot;Yes, your highness,&quot; Edward answers enthusiastically. 
+
+You pluck a small flower from the display. A crocus. And hold it gingerly between your thumb and index finger as you contemplate your response.
+
+[[Rubbish.]]
+
+[[Ask Edward about Religion.]]
+
+[[Ask Edward about women]]
+
+[[Ask Edward about Scotland]]
+
+[[Ask Edward about Spain]]
+
+[[Ask Edward about personal matters]]
+</tw-passagedata><tw-passagedata pid="37" name="Rubbish." tags="" position="1125,1300" size="100,100">You crush the small flower in your hand. 
+
+&quot;Rubbish&quot;
+
+Edward suddenly looks nervous. &quot;Your Highness?&quot;
+
+&quot;Rubbish. That&#39;s all you&#39;ll ever be. Like your father before you, rubbish!&quot;
+
+Edward is taken aback but doesn&#39;t budge. He isn&#39;t quite sure how to respond to your clear rebuke. 
+
+You gesture to Paul who hurries to your side, indicating you want Edward taken away. 
+
+Edward loses his footing as he moves away from the door and down the hall. He stumbles and loses his purse, coins scattering about. He grasps in futility at them before picking himself up instead and making a mad dash with Paul in pursuit. 
+
+&quot;You haven&#39;t seen the last of Seymoooooourrr!&quot; He yells in flight. 
+
+You breath a sign, and make your way back to the door.
+
+(if:visits is 1)[You decide to return to the party, you don&#39;t want to neglect your guests...
+
+[[Go to the party]]]
+
+(if:visits is 2)[On your way in, you begin to feel very faint...
+
+[[die]]]</tw-passagedata><tw-passagedata pid="38" name="Ask Edward about Religion." tags="" position="1250,1300" size="100,100">&quot;So, Edward, what do you make of the relgious disputes in old England?&#39;
+
+Edward again seems completely surprised by this question.
+
+&quot;Well, um... I&#39;ve always fancied the Anglican communion. God&#39;s true church!&quot; 
+
+You are unimpressed by the flattery. 
+
+&quot;Ehm, I&#39;ve always seen you as the rightful sovereign of English souls!&quot;
+
+You interrupt him with a more difficult proposition, &quot;Very well, and how would you deal with a peer who confided his faith in the papacy?&quot;
+
+Edward loudly exclaims, &quot;Well, he&#39;s entitled to his own faith but he&#39;d be no peer of mine!&quot;
+
+You decide to change the subject to avoid further mutual embarassment. 
+
+[[Ask Edward about women]] 
+
+[[Ask Edward about Scotland]] 
+
+[[Ask Edward about personal matters]] 
+
+[[Ask Edward about Spain]] </tw-passagedata><tw-passagedata pid="39" name="Ask Edward about women" tags="" position="1000,1300" size="100,100">&quot;Interesting.&quot; Not.
+
+You pace down the hall a few steps before stopping and asking out of the blue, &quot;Do you think lowly of my sex? That I cannot lead due to it?&quot;
+
+Edward blusters, &quot;No, your highness, not at all. I think you are a capable and confident Queen. Heaven has smiled on England during your reign.&quot;
+
+You say nothing but to add, &quot;and what of the female sex in general?&quot; 
+
+Edward is at first not sure how to approach this subject.
+
+&quot;Well... um, I believe that women are -typically speaking- more suited to the nurturing role, but by God&#39;s design there are women skilled in the pursuits of men.&quot; 
+
+You provide no acknowlegement or affirmation, and he pushes on through the subject, &quot;Of course, I think highly of my own mother... and wife.&quot;
+
+After those remarks, Edward looks away from you. He is not sure how to broach the topic of his mother, whom you feuded with, nor his wife, whom you do not get along with either. 
+
+&quot;My personal experience has shaped my perceptions, your highness, but they are simply my observations only... I suppose they are my father&#39;s views, and he spoke very highly of, well, you, of course.&quot;
+
+You flashback momentarily to one summer long ago. The lad who stand before you now has a father, a scheming and plotting one, but one who once asked for your hand. You remember long days riding, hunting, by the fireside and laying in the meadow. Those were the days before you realized how dangerous a man can be. How a man can be a leaden anchor for your entire vision, and use his efficacious marriage to promote his own design. 
+
+&quot;Naturally, these are just my personal opinions...&quot;
+
+You snap out of the daydream, the warmth of yesterday&#39;s sun still on your cheeks for a moment?
+
+Perahps he has some insight? Should you probe for more in Edward&#39;s personal life?
+
+[[Ask Edward about personal matters]]
+
+[[Ask Edward about Religion.]] 
+
+[[Ask Edward about Scotland]] 
+
+[[Ask Edward about Spain]] </tw-passagedata><tw-passagedata pid="40" name="Ask Edward about Scotland" tags="" position="1125,1425" size="100,100">&quot;Hmm,&quot; Your words are sparse, &quot;and what of our neighbors to the north under James?&quot;
+
+Edward shrugs, &quot;I&#39;ve spent a few summers in Scotland. Lovely place but I suspect the people there take less of a liking to the English.&quot;
+
+You take his statement into consideration.
+
+&quot;Of course,&quot; he continues without warning, &quot;I wouldn&#39;t endeavor to excercise more control up north without another round of pacification.&quot; He turns to you and speaks seriously. &quot;and I&#39;m not sure how keen the English would be be with a Scotsman on the throne?&quot;
+
+&quot;What&#39;s that?&quot; you blurt out, not sure if you even heard the young rascall correctly.
+
+&quot;Oh, nothing, I&#39;m just not sure how the common English would think of old James.&quot;
+
+You decide to let the last remark slide. His honesty may be just what you need right now.
+
+[[Ask Edward about Religion.]] 
+
+[[Ask Edward about women]] 
+
+[[Ask Edward about Spain]] 
+
+[[Ask Edward about personal matters]] </tw-passagedata><tw-passagedata pid="41" name="Ask Edward about Spain" tags="" position="1250,1425" size="100,100">&quot;I see,&quot; you reply, your mind already having moved on. &quot;What do you make of the Spanish threat?&quot;
+
+Edward shuffles his feet, ready to capitalize on the moment, &quot;Your majesty, the Spanish have long sought to take English lands and your crown. You valiantly defended England against Phillip&#39;s scourge and I would-&quot;
+
+He stops abruptly with a perceptible pause before continuing.
+
+&quot;- I would continue to support you in the defense of the realm.&quot;
+
+Before yu can speak again, he thinks of something else to say, &quot;You know, I saw the Spnaish ambassador coming through the door earlier. He has a lot of nerve to show his face here.&quot;
+
+&quot;Do you suppose that I have a lot of nerve to invite him.&quot; You respond rather disarmingly.
+
+Seymour fumbles with his sentence a bit before saying, &quot;No, it&#39;s just... uncouth, but I suppose not as bad as well, you know who showing up.&quot;
+
+Edward finishes his short speech with a smile, hoping you&#39;ll forget his frequent //faux pas//
+
+[[Ask Edward about Religion.]] 
+
+[[Ask Edward about Scotland]] 
+
+[[Ask Edward about Spain]] 
+
+[[Ask Edward about personal matters]] </tw-passagedata><tw-passagedata pid="42" name="Ask Edward about personal matters" tags="" position="1000,1425" size="100,100">&quot;Tell me,&quot; You say as you place a steadying hand on the wall before continuing, &quot;What concerns you personally today as you attend the party...?&quot;
+
+Edward takes a deep breath, looking around in hesitation, and to assure that you, he and Paul are alone. 
+
+Edward gulps as he produces a small pouch from his breast pocket. Paul&#39;s spear is now at his back. He holds it with both shaky hands as he extends his arms in offering. 
+
+&quot;F-for you, ma-majesty...&quot; His heavy breathing perforates his words, &quot;I-I figured you m-might make an example of m-me t-today.&quot; 
+
+He undoes the twine sash, revealing the golden currency of your realm. &quot;The next al-allotment of the debt.. my d-debt.&quot;
+
+Your recent preoccupation with choosing a sucessor has left you little time for your earthly credits and other such aspects of rule. It had slipped your mind that in 1596, You had fined the younger Edward Seymour £5,000. Of it, he still owed a considerable amount, despite your forgiveness of half the sum. It&#39;s nothing to you, but it is enough to saddle a nobleman like Edward with a sullied reputation.
+
+&quot;I thought I&#39;d better bring the funds to repay my debt. I thought you&#39;d rather have that than my head...&quot; Edward admits sheepishly.
+
+This is certainly unexpected, and your view of the rascall Edward grows softer, as you consider your next move. 
+
+[[Thank you...]] 
+
+[[This is isn&#39;t why I summoned you...]] 
+
+[[Rubbish.]] </tw-passagedata><tw-passagedata pid="43" name="Thank you..." tags="" position="1350,1150" size="100,100">You decide to accept the repayment of Edward&#39;s debt. 
+
+&quot;There&#39;s one grand in there, my final payment in advance.&quot; Edward seems relieved that you accepted and cleared his debt.
+
+You smile and consider this unexpected display of maturity. Perhaps you were wrong about the young rascall. 
+
+You did invite him to the party after all, perhaps you should show him the way in, or would you like to continue speaking with him. 
+
+
+[[Go to the party]] 
+
+[[This is isn&#39;t why I summoned you...]] 
+
+[[Ask Edward...]]</tw-passagedata><tw-passagedata pid="44" name="This is isn&#39;t why I summoned you..." tags="" position="1475,1050" size="100,100">&quot;Edward... you should know this isn&#39;t why I summoned you.&quot; You stare at the crocus in your hand before looking at the young man.
+
+Edward looks puzzled, &quot;It&#39;s not?&quot; His hand flinches as he reaches for the coinpurse, but he thinks better of it at the last moment.&quot;
+
+&quot;No,&quot; you continue, &quot;I invited you to this party for a specific reason.&quot;
+
+&quot;Yes, your highness.&quot; Edward seems to be watching your words with bated breath. 
+
+&quot;I am hosting this party to determine my true sucessor. You have surprised me today with your honesty and are more favored in my eyes now than before.&quot;
+
+You take a seat on a large chest in the hallway. Paul keeps a watchful glace on you, and stands at attention, in part due to the annoncement, and in part to see if Edward has something else in his pockets. Meanwhile, Edward rushes to your side.
+
+&quot;Your majesty it&#39;s an honor...&#39;
+
+You raise a hand, &quot;It&#39;s important that no one speaks of this prematurely. You are a contender for the throne not my heir. (if:(history: where its name contains &quot;Go to the party&quot;)&#39;s length &lt;= 2)[ There are still more guests to speak with.] (if:(history: where its name contains &quot;Go to the party&quot;)&#39;s length &gt;= 3)[My decision is not yet final.]But as a token of goodwill, you may consider your parent&#39;s marriage valid. 
+
+Edward breathes deeply as he takes in the good news. He stoops to kiss your ring and this time you offer it. 
+
+Both of you stand  and Seymour offers to follow you into the ballroom.
+(if:(history: where its name contains &quot;Go to the party&quot;)&#39;s length &lt;= 2)[[Go to the party]]]
+
+(if:(history: where its name contains &quot;Go to the party&quot;)&#39;s length is 3)[Suddenly you feel  very faint...
+
+[[die]]]</tw-passagedata><tw-passagedata pid="45" name="Ask Edward..." tags="" position="1475,1275" size="100,100">What do you want to ask about?
+
+[[Ask Edward about Religion.]] 
+
+[[Ask Edward about women]] 
+
+[[Ask Edward about Scotland]] 
+
+[[Ask Edward about Spain]] 
+
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
